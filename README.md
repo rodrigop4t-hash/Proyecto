@@ -23,7 +23,7 @@ Este proyecto consiste en un formulario de contacto funcional de extremo a extre
 *(Asegúrate de subir una foto de tu formulario con el nombre screenshot.png a GitHub)*
 
 ### Enlaces
-- **URL en GITHUB:** [PEGA AQUÍ EL LINK DE TU REPO QUE EMPIEZA CON HTTPS://GITHUB.COM...]
+- **URL en GITHUB:** [https://github.com/rodrigop4t-hash/Proyecto.git]
 - **URL del site:** Ejecución local bajo el entorno Laragon (http://localhost/FORMULARIO_MIO/formulario.html)
 
 ## Mi proceso
@@ -45,4 +45,4 @@ Para que el docente pueda ejecutar este proyecto localmente:
 - **Nombre completo:** [ Julio Rodrigo Pat Balam]
 - **N° Control:** [221k0025]
 - **Grupo:** [8 - A]
-- **Github:** [@tu-usuario](https://github.com/TU-USUARIO-AQUI)
+- **Github:** [rodrigop4t-hash](https://github.com/rodrigop4t-hash/Proyecto.git)

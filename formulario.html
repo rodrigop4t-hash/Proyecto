@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formulario de Contacto</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+  <h2>Contáctanos</h2>
+
+  <form id="contactForm" action="guardar.php" method="POST">
+
+    <div class="row">
+      <div class="input-group">
+        <label>Nombre *</label>
+        <input type="text" name="nombre" id="firstName" required>
+      </div>
+
+      <div class="input-group">
+        <label>Apellido *</label>
+        <input type="text" name="apellido" id="lastName" required>
+      </div>
+    </div>
+
+    <div class="input-group">
+      <label>Correo electrónico *</label>
+      <input type="email" name="correo" id="email" required>
+    </div>
+
+    <div class="input-group">
+      <label>Tipo de consulta *</label>
+      <div class="radio-group">
+        <label><input type="radio" name="tipo" value="general" required> Consulta general</label>
+        <label><input type="radio" name="tipo" value="soporte" required> Solicitud de soporte</label>
+      </div>
+    </div>
+
+    <div class="input-group">
+      <label>Mensaje *</label>
+      <textarea name="mensaje" id="message" required></textarea>
+    </div>
+
+    <div class="checkbox-group">
+      <label>
+        <input type="checkbox" name="consentimiento" required> Acepto ser contactado por el equipo
+      </label>
+    </div>
+
+    <!-- Botón de envío -->
+    <div class="input-group">
+      <button type="submit">Enviar</button>
+    </div>
+
+  </form>
+</div>
+
+</body>
+</html>
